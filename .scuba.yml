@@ -1,0 +1,6 @@
+image: matthewtingum/mips-buildroot-linux-uclibc:0.1
+
+aliases:
+  test:
+    script:
+      - mips-buildroot-linux-uclibc-gcc main.c -static -o test
